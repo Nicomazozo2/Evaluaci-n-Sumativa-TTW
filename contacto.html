@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo Electr&oacutenico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="tipo-s olicitud">Tipo de Solicitud:</label>
+                <select id="tipo-solicitud" name="tipo-solicitud" required>
+                    <option value="consulta">Consulta</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="reclamo">Reclamo</option>
+                </select>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <h3>Información de Contacto</h3>
+            <p>Dirección: Arturo Prat 123</p>
+            <p>Teléfono: 912345678</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Galería de arte sobre Celia Castro</p>
+    </footer>
+</body>
+</html>
